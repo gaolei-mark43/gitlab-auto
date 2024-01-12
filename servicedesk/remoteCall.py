@@ -4,7 +4,7 @@ import logging
 
 
 def create_group():
-    url = "http://172.30.94.147:7070/create_group"
+    url = "http://101.10.10.101:7070/create_group"
     payload = json.dumps({
         "BGBU": BGBU,
         "group_name": group_name,
